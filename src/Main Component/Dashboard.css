@@ -1,0 +1,213 @@
+.dash{
+    
+width: 100%;
+display: flex;
+
+flex-direction: row;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+padding:60px 0 28px 0;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.student{
+    width:350px;
+    height:450px;
+    margin:10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+
+}
+.mentor{
+ width:350px;
+    background-color: white;
+    height:450px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+    margin:10px;
+
+}
+.management{
+
+    width:350px;
+    background-color: white;
+    height:450px;
+    margin:10px;
+   
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+
+}
+.student>h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: firebrick;
+
+}
+
+.mentor>h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: darkblue;
+
+}
+.management>h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: green;
+
+}
+.student_pic>img{
+    width: 300px;
+    height: 300px;
+    padding-top: 30px;
+}
+.student_pic{
+    display: flex;
+    justify-content: center;
+    
+}
+.mentor_pic>img{
+    width: 300px;
+    height: 300px;
+    padding-bottom: 10px;
+    
+}
+.mentor_pic{
+    display: flex;
+    justify-content: center;
+}
+.management_pic>img{
+    width: 200px;
+    height: 280px;
+    padding: 5px;
+}
+.management_pic{
+    display: flex;
+    justify-content: center;
+}
+.student_button>button{
+    border: none;
+    outline: none;
+    width:90px;
+    font-weight:900;
+    height: 40px;
+    color: wheat;
+    background-color:firebrick;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+
+}
+.student_button{
+    display: flex;
+    justify-content: center;
+}
+.student:hover{
+    border:2px solid #1877F2;
+}
+.mentor:hover{
+    border: 2px solid #1877F2;
+}
+.management:hover{
+    border: 2px solid #1877F2;
+}
+.management_button>button{
+    border: none;
+    outline: none;
+    width:90px;
+    font-weight:900;
+    height: 40px;
+    color: wheat;
+    background-color:green;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+
+}
+.mentor_button>button{
+    border: none;
+    outline: none;
+    width:90px;
+    font-weight:900;
+    height: 40px;
+    color: wheat;
+    background-color:darkblue;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+
+}
+.mentor_button{
+    display: flex;
+    justify-content: center;
+    
+}
+.management_button{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+@media (max-width:430px) {
+
+    .dash{
+        padding:10px 0 0px 0;
+        
+        }
+    .student{
+        width:300px;
+        height:300px;
+        margin:10px;
+    
+    }
+    .student_pic>img{
+        width: 200px;
+        height: 200px;
+        padding-top: 10px;
+    }
+
+    .student_button>button{
+
+        margin: 5px;
+    
+    }
+
+    .mentor{
+        width:300px;
+        height:300px;
+        margin:10px;
+    
+    }
+    .mentor_pic>img{
+        width: 200px;
+        height: 200px;
+        padding-top: 10px;
+    }
+
+    .mentor_button>button{
+
+        margin: 5px;
+    
+    }
+    .management{
+        width:300px;
+        height:300px;
+        margin:10px;
+        padding-bottom: 5px;
+    }
+    .management_pic>img{
+        width: 200px;
+        height: 190px;
+        padding-top: 10px;
+    }
+
+    .management_button>button{
+        margin: 0px;
+    
+    }
+    
+    
+    
+}
